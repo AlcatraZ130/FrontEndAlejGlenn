@@ -1,0 +1,47 @@
+<div class="login-page">
+  <div class="login-box">
+    <div class="login-logo">
+      <h2 class="logo-title">INICIO</h2>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Llene los campos para iniciar</h3>
+
+        <div class="input-group mb-3">
+          <input 
+            type="email" 
+            class="form-control" 
+            placeholder="Correo" 
+            [(ngModel)]="correo" 
+            name="correo"
+            required>
+        </div>
+
+        <div class="input-group mb-3">
+          <input 
+            type="password" 
+            class="form-control" 
+            placeholder="Contraseña" 
+            [(ngModel)]="contrasena" 
+            name="contrasena"
+            required>
+        </div>
+
+        <div class="checkbox-container mb-3">
+          <label>
+            <input type="checkbox"> Recordar nombre de usuario
+          </label>
+        </div>
+
+        <div class="button-container">
+          <button (click)="login()" class="btn btn-primary btn-block">Iniciar</button>
+        </div>
+
+        <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+          {{ errorMessage }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

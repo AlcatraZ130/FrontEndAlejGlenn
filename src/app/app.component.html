@@ -1,0 +1,6 @@
+<div *ngIf="!isLoginPage()" class="app-wrapper">
+    <app-topnav class="app-header navbar navbar-expand bg-body topbar"></app-topnav>
+    <router-outlet></router-outlet>
+</div>
+<!-- Para la página de login, asegúrate de que el router-outlet esté accesible fuera del app-wrapper -->
+<router-outlet *ngIf="isLoginPage()"></router-outlet>

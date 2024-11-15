@@ -1,0 +1,69 @@
+/* Estructura de la página */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+}
+
+.login-box {
+    width: 360px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Checkbox */
+.checkbox-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Botón */
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: rgb(4, 71, 80);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button-container button:hover {
+    background-color: #04555f;
+}
+
+/* Mensaje de error */
+.alert {
+    color: #e74c3c;
+    margin-top: 15px;
+}

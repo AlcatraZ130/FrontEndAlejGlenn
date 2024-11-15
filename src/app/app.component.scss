@@ -1,0 +1,15 @@
+.app-header, .navbar, .navbar-expand, .topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(0, 96, 107); // Cambia a tu color deseado
+    color: white; // Cambia el color del texto si es necesario
+  }
+  
+  .app-wrapper {
+    padding-top: 70px; /* Ajusta este valor según la altura de tu topNav */
+  }
+  
+
+  

@@ -1,0 +1,59 @@
+// src/app/components/perfil/perfil.component.scss
+
+// Estilos generales para el contenedor y el fondo
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 48rem;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+// Título del perfil
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+// Estilos de la información de perfil
+.space-y-4 > div {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0; // Gris claro para el borde
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+p {
+  &.text-gray-600 {
+    color: #4a5568; // Gris medio para el texto
+    font-size: 0.875rem;
+  }
+
+  &.text-xl {
+    font-size: 1.25rem;
+    color: #2d3748; // Color gris oscuro para el valor del perfil
+  }
+
+  &.capitalize {
+    text-transform: capitalize;
+  }
+}

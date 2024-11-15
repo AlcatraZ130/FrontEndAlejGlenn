@@ -1,0 +1,25 @@
+.navbar-nav,
+.user-menu,
+.app-sidebar,
+.dropdown-menu,
+.nav-link,
+.dropdown-item,
+.brand-text {
+  background-color: rgb(1, 97, 108);
+  color: white;
+}
+
+/* Asegura que los enlaces y dropdowns también respeten el estilo */
+.dropdown-menu {
+  background-color: rgb(1, 96, 106);
+  color: white;
+}
+
+.container-fluid {
+  background-color: rgb(0, 96, 107); /* Color del contenedor */
+
+}
+
+.navbar-nav, .app-sidebar {
+  background-color: inherit;
+}

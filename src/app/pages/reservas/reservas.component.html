@@ -1,0 +1,43 @@
+<!-- reservas.component.html -->
+<div class="reservas-container">
+  <h1>Reserva tu Asiento</h1>
+
+  <div class="route-selector">
+    <h2>Selecciona tu Ruta</h2>
+    <div class="route-list">
+      <div class="route-option">Ruta A - Campus Principal (7:00 AM)</div>
+      <div class="route-option">Ruta B - Campus Secundario (8:00 AM)</div>
+      <div class="route-option">Ruta C - Campus Este (9:00 AM)</div>
+    </div>
+  </div>
+
+  <div class="seats-container">
+    <h2>Selecciona tu Asiento</h2>
+    
+    <div class="seats-grid">
+      <div class="bus-icon">🚌</div>
+      <div class="seat seat-available">1</div>
+      <div class="seat seat-available">2</div>
+      <div class="seat seat-occupied">3</div>
+      <div class="seat seat-available">4</div>
+      <div class="seat seat-available">5</div>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item">
+        <div class="legend-color" style="background-color: #22c55e;"></div>
+        <span>Disponible</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background-color: #ef4444;"></div>
+        <span>Ocupado</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background-color: #f97316;"></div>
+        <span>Seleccionado</span>
+      </div>
+    </div>
+
+    <button class="confirm-button">Confirmar Reserva</button>
+  </div>
+</div>
